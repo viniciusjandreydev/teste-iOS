@@ -3,51 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone - Estudo</title>
+    <title>Loja de Roupas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <!-- Barra lateral -->
-        <nav class="sidebar">
-            <div class="logo">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Spotify_logo_with_text.svg/1280px-Spotify_logo_with_text.svg.png" alt="Spotify">
-            </div>
+    <header class="header">
+        <div class="logo">
+            <h1>Loja de Roupas</h1>
+        </div>
+        <nav class="navbar">
             <ul>
                 <li><a href="#">Início</a></li>
-                <li><a href="#">Busca</a></li>
-                <li><a href="#">Sua Biblioteca</a></li>
-                <li><a href="#">Playlists</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
+    </header>
 
-        <!-- Área principal -->
-        <main class="main-content">
-            <header>
-                <input type="text" placeholder="Buscar músicas, artistas...">
-            </header>
-            <section class="playlist">
-                <h2>Playlist Sugerida</h2>
-                <div class="album">
-                    <img src="https://via.placeholder.com/150" alt="Álbum">
-                    <p>Nome da música</p>
-                </div>
-                <div class="album">
-                    <img src="https://via.placeholder.com/150" alt="Álbum">
-                    <p>Nome da música</p>
-                </div>
-                <!-- Adicione mais álbuns conforme necessário -->
-            </section>
-        </main>
-
-        <!-- Reprodutor -->
-        <footer class="footer">
-            <div class="controls">
-                <button>&#9664;</button>
-                <button>&#9654;</button>
-                <button>&#9654;&#9654;</button>
+    <main class="main-content">
+        <section class="featured-products">
+            <h2>Produtos em Destaque</h2>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400/green/ffffff?text=Produto+1" alt="Produto 1">
+                <p class="product-name">Camisa Polo</p>
+                <p class="product-price">R$ 99,90</p>
             </div>
-        </footer>
-    </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400/green/ffffff?text=Produto+2" alt="Produto 2">
+                <p class="product-name">Calça Jeans</p>
+                <p class="product-price">R$ 149,90</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300x400/green/ffffff?text=Produto+3" alt="Produto 3">
+                <p class="product-name">Jaqueta de Couro</p>
+                <p class="product-price">R$ 299,90</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Loja de Roupas. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
